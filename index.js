@@ -140,14 +140,13 @@ const descriptionContainer = document.getElementById("description-container");
 // use filter or reduce to count the number of unfunded games
 const numUnfunded = GAMES_JSON.reduce( (num, games) => {
     if(games.goal > games.pledged) {
-        console.log("hi")
         return num + 1;
     }
     else return num;
 },0);
 
 
-console.log("num", numUnfunded);
+//console.log("num", numUnfunded);
 // create a string that explains the number of unfunded games using the ternary operator
 
 const displayStr = `A total of $${totalRaised.toLocaleString()} has been raised for 
@@ -186,3 +185,19 @@ const secondGame = document.createElement('p');
 secondGame.innerHTML = `${second_game}`;
 secondGameContainer.appendChild(secondGame);
 // do the same for the runner up item
+
+function search(){
+    var input = document.getElementById('input');
+    input = input.value.toUpperCase();
+    //console.log(input);
+
+    deleteChildElements(gamesContainer);
+
+    let listSearch = GAMES_JSON.filter( (games) => {
+        return games.name.toUpperCase().indexOf(input) != - 1; 
+    })
+
+    addGamesToPage(listSearch);
+}
+
+const searchBox = document.querySelector('input').addEventListener("input", search)

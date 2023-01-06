@@ -73,7 +73,7 @@ body {
     text-align: center;
 }
 
-button {
+button, input {
     font-family: 'Cabin';
     border: none;
     padding: 1%;
