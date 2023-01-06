@@ -26,7 +26,7 @@ Here's a walkthrough of implemented features:
 
 ![Video Walkthrough](https://imgur.com/a/sHpzbWa.gif)
 
-<img src='https://imgur.com/a/sHpzbWa' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./VideoWalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/sHpzbWa"  ><a href="//imgur.com/a/sHpzbWa">CodePath Website Walkthrough</a></blockquote>
 
