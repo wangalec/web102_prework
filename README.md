@@ -26,10 +26,6 @@ Here's a walkthrough of implemented features:
 
 ![Video Walkthrough](./VideoWalkthrough.gif)
 
-<img src='./VideoWalkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/sHpzbWa"  ><a href="//imgur.com/a/sHpzbWa">CodePath Website Walkthrough</a></blockquote>
-
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with lICEcap  
 <!-- Recommended tools:
